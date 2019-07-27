@@ -1,0 +1,166 @@
+﻿  ai.cpp
+c:\users\harri\desktop\airb\airb\src\ai\search_node.hpp(16): warning C4100: 'world_size': unreferenced formal parameter
+  attack_state.cpp
+c:\users\harri\desktop\airb\airb\src\ai\search_node.hpp(16): warning C4100: 'world_size': unreferenced formal parameter
+  caught_state.cpp
+c:\users\harri\desktop\airb\airb\src\ai\search_node.hpp(16): warning C4100: 'world_size': unreferenced formal parameter
+  idle_state.cpp
+c:\users\harri\desktop\airb\airb\src\ai\search_node.hpp(16): warning C4100: 'world_size': unreferenced formal parameter
+c:\users\harri\desktop\airb\airb\src\ai\idle_state.cpp(5): warning C4100: 'ai': unreferenced formal parameter
+  path_finding.cpp
+c:\users\harri\desktop\airb\airb\src\ai\search_node.hpp(16): warning C4100: 'world_size': unreferenced formal parameter
+  patrol_state.cpp
+c:\users\harri\desktop\airb\airb\src\ai\search_node.hpp(16): warning C4100: 'world_size': unreferenced formal parameter
+  search_node.cpp
+c:\users\harri\desktop\airb\airb\src\ai\search_node.hpp(16): warning C4100: 'world_size': unreferenced formal parameter
+  manager.cpp
+  music.cpp
+  sound.cpp
+  ai_plane.cpp
+c:\users\harri\desktop\airb\airb\src\ai\search_node.hpp(16): warning C4100: 'world_size': unreferenced formal parameter
+c:\users\harri\desktop\airb\airb\src\entities\ai_plane.cpp(35): warning C4100: 'dt': unreferenced formal parameter
+c:\users\harri\desktop\airb\airb\src\entities\ai_plane.cpp(33): warning C4100: 'kb': unreferenced formal parameter
+c:\users\harri\desktop\airb\airb\src\entities\ai_plane.cpp(33): warning C4100: 'cursor_pos': unreferenced formal parameter
+  basic_projectile.cpp
+c:\users\harri\desktop\airb\airb\src\ai\search_node.hpp(16): warning C4100: 'world_size': unreferenced formal parameter
+c:\users\harri\desktop\airb\airb\src\entities\basic_projectile.cpp(13): warning C4189: 'radius': local variable is initialized but not referenced
+  controllable_plane.cpp
+  level_terrain.cpp
+  plane.cpp
+  projectile.cpp
+c:\users\harri\desktop\airb\airb\src\ai\search_node.hpp(16): warning C4100: 'world_size': unreferenced formal parameter
+  trajectory_projectile.cpp
+c:\users\harri\desktop\airb\airb\src\ai\search_node.hpp(16): warning C4100: 'world_size': unreferenced formal parameter
+c:\users\harri\desktop\airb\airb\src\entities\trajectory_projectile.cpp(14): warning C4189: 'radius': local variable is initialized but not referenced
+  uncontrollable_plane.cpp
+  weapon.cpp
+c:\users\harri\desktop\airb\airb\src\ai\search_node.hpp(16): warning C4100: 'world_size': unreferenced formal parameter
+  freetype.cpp
+  Generating Code...
+c:\users\harri\desktop\airb\airb\src\ai\ai.cpp(340): warning C4702: unreachable code
+  Compiling...
+  glew.cpp
+  glfw.cpp
+  gorilla_audio.cpp
+  animated_sprite.cpp
+  batch_renderer.cpp
+  explosion.cpp
+  image.cpp
+  render_tools.cpp
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\minwindef.h(130): warning C4005: 'APIENTRY': macro redefinition
+  c:\users\harri\desktop\airb\airb\libs\glfw3\include\glfw\glfw3.h(98): note: see previous definition of 'APIENTRY'
+  shader.cpp
+  sprite.cpp
+  texture.cpp
+  window.cpp
+  keyboard.cpp
+  mouse.cpp
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\minwindef.h(130): warning C4005: 'APIENTRY': macro redefinition
+  c:\users\harri\desktop\airb\airb\libs\glfw3\include\glfw\glfw3.h(98): note: see previous definition of 'APIENTRY'
+  aftermatch_state.cpp
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\minwindef.h(130): warning C4005: 'APIENTRY': macro redefinition
+  c:\users\harri\desktop\airb\airb\libs\glfw3\include\glfw\glfw3.h(98): note: see previous definition of 'APIENTRY'
+  client_gameplay_state.cpp
+c:\users\harri\desktop\airb\airb\src\ai\search_node.hpp(16): warning C4100: 'world_size': unreferenced formal parameter
+  client_lobby_state.cpp
+  game.cpp
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\minwindef.h(130): warning C4005: 'APIENTRY': macro redefinition
+  c:\users\harri\desktop\airb\airb\libs\glfw3\include\glfw\glfw3.h(98): note: see previous definition of 'APIENTRY'
+c:\users\harri\desktop\airb\airb\src\ai\search_node.hpp(16): warning C4100: 'world_size': unreferenced formal parameter
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\memory(2510): warning C4239: nonstandard extension used: 'argument': conversion from 'std::unique_ptr<network::ServerSocket,std::default_delete<_Ty>>' to 'std::unique_ptr<network::ServerSocket,std::default_delete<_Ty>> &'
+          with
+          [
+              _Ty=network::ServerSocket
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\memory(2510): note: A non-const reference may only be bound to an lvalue
+  c:\users\harri\desktop\airb\airb\src\logic\game.cpp(219): note: see reference to function template instantiation 'std::unique_ptr<logic::ServerGameplayState,std::default_delete<_Ty>> std::make_unique<logic::ServerGameplayState,logic::Game&,const graphics::Textures&,std::unique_ptr<network::ServerSocket,std::default_delete<network::ServerSocket>>,std::vector<std::shared_ptr<network::Connection>,std::allocator<std::shared_ptr<network::Connection>>>&,0>(logic::Game &,const graphics::Textures &,std::unique_ptr<network::ServerSocket,std::default_delete<network::ServerSocket>> &&,std::vector<std::shared_ptr<network::Connection>,std::allocator<std::shared_ptr<network::Connection>>> &)' being compiled
+          with
+          [
+              _Ty=logic::ServerGameplayState
+          ]
+  gameplay_state.cpp
+c:\users\harri\desktop\airb\airb\src\ai\search_node.hpp(16): warning C4100: 'world_size': unreferenced formal parameter
+  lobby_state.cpp
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\minwindef.h(130): warning C4005: 'APIENTRY': macro redefinition
+  c:\users\harri\desktop\airb\airb\libs\glfw3\include\glfw\glfw3.h(98): note: see previous definition of 'APIENTRY'
+  Generating Code...
+  Compiling...
+  server_gameplay_state.cpp
+c:\users\harri\desktop\airb\airb\src\ai\search_node.hpp(16): warning C4100: 'world_size': unreferenced formal parameter
+  server_lobby_state.cpp
+  state.cpp
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\minwindef.h(130): warning C4005: 'APIENTRY': macro redefinition
+  c:\users\harri\desktop\airb\airb\libs\glfw3\include\glfw\glfw3.h(98): note: see previous definition of 'APIENTRY'
+  title_state.cpp
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\minwindef.h(130): warning C4005: 'APIENTRY': macro redefinition
+  c:\users\harri\desktop\airb\airb\libs\glfw3\include\glfw\glfw3.h(98): note: see previous definition of 'APIENTRY'
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\memory(2510): warning C4244: 'argument': conversion from 'const int' to 'const unsigned short', possible loss of data
+  c:\users\harri\desktop\airb\airb\src\logic\title_state.cpp(123): note: see reference to function template instantiation 'std::unique_ptr<logic::ClientLobbyState,std::default_delete<_Ty>> std::make_unique<logic::ClientLobbyState,logic::Game&,std::string,const int&,0>(logic::Game &,std::string &&,const int &)' being compiled
+          with
+          [
+              _Ty=logic::ClientLobbyState
+          ]
+  main.cpp
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\minwindef.h(130): warning C4005: 'APIENTRY': macro redefinition
+  c:\users\harri\desktop\airb\airb\libs\glfw3\include\glfw\glfw3.h(98): note: see previous definition of 'APIENTRY'
+  general.cpp
+  connection.cpp
+  player.cpp
+c:\users\harri\desktop\airb\airb\src\network\player.cpp(85): warning C4244: 'return': conversion from 'int' to 'char', possible loss of data
+c:\users\harri\desktop\airb\airb\src\network\player.cpp(90): warning C4244: 'return': conversion from 'int' to 'char', possible loss of data
+  client_socket_win.cpp
+  server_socket_win.cpp
+  udp_packet.cpp
+  box_collider.cpp
+  collision.cpp
+  rigid_body.cpp
+c:\users\harri\desktop\airb\airb\src\physics\rigid_body.cpp(75): warning C4100: 'terr': unreferenced formal parameter
+  rigid_body_with_collider.cpp
+  terrain_collision.cpp
+  button.cpp
+  font.cpp
+  font_renderer.cpp
+  input_field.cpp
+  Generating Code...
+  Compiling...
+  kill_notification.cpp
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\minwindef.h(130): warning C4005: 'APIENTRY': macro redefinition
+  c:\users\harri\desktop\airb\airb\libs\glfw3\include\glfw\glfw3.h(98): note: see previous definition of 'APIENTRY'
+  scoreboard.cpp
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\minwindef.h(130): warning C4005: 'APIENTRY': macro redefinition
+  c:\users\harri\desktop\airb\airb\libs\glfw3\include\glfw\glfw3.h(98): note: see previous definition of 'APIENTRY'
+  file_io.cpp
+  font_holder.cpp
+  pool_object.cpp
+  spawn_point.cpp
+  Generating Code...
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+gorilla.lib(ga.obj) : warning LNK4099: PDB 'gorilla.pdb' was not found with 'gorilla.lib(ga.obj)' or at 'C:\Users\Harri\Desktop\AirB\airb\bin\Debug\x86\gorilla.pdb'; linking object as if no debug info
+gorilla.lib(gau.obj) : warning LNK4099: PDB 'gorilla.pdb' was not found with 'gorilla.lib(gau.obj)' or at 'C:\Users\Harri\Desktop\AirB\airb\bin\Debug\x86\gorilla.pdb'; linking object as if no debug info
+gorilla.lib(ga_stream.obj) : warning LNK4099: PDB 'gorilla.pdb' was not found with 'gorilla.lib(ga_stream.obj)' or at 'C:\Users\Harri\Desktop\AirB\airb\bin\Debug\x86\gorilla.pdb'; linking object as if no debug info
+gorilla.lib(ga_xaudio2.obj) : warning LNK4099: PDB 'gorilla.pdb' was not found with 'gorilla.lib(ga_xaudio2.obj)' or at 'C:\Users\Harri\Desktop\AirB\airb\bin\Debug\x86\gorilla.pdb'; linking object as if no debug info
+gorilla.lib(gc_common.obj) : warning LNK4099: PDB 'gorilla.pdb' was not found with 'gorilla.lib(gc_common.obj)' or at 'C:\Users\Harri\Desktop\AirB\airb\bin\Debug\x86\gorilla.pdb'; linking object as if no debug info
+gorilla.lib(gc_thread.obj) : warning LNK4099: PDB 'gorilla.pdb' was not found with 'gorilla.lib(gc_thread.obj)' or at 'C:\Users\Harri\Desktop\AirB\airb\bin\Debug\x86\gorilla.pdb'; linking object as if no debug info
+gorilla.lib(bitwise.obj) : warning LNK4099: PDB 'gorilla.pdb' was not found with 'gorilla.lib(bitwise.obj)' or at 'C:\Users\Harri\Desktop\AirB\airb\bin\Debug\x86\gorilla.pdb'; linking object as if no debug info
+gorilla.lib(framing.obj) : warning LNK4099: PDB 'gorilla.pdb' was not found with 'gorilla.lib(framing.obj)' or at 'C:\Users\Harri\Desktop\AirB\airb\bin\Debug\x86\gorilla.pdb'; linking object as if no debug info
+gorilla.lib(analysis.obj) : warning LNK4099: PDB 'gorilla.pdb' was not found with 'gorilla.lib(analysis.obj)' or at 'C:\Users\Harri\Desktop\AirB\airb\bin\Debug\x86\gorilla.pdb'; linking object as if no debug info
+gorilla.lib(bitrate.obj) : warning LNK4099: PDB 'gorilla.pdb' was not found with 'gorilla.lib(bitrate.obj)' or at 'C:\Users\Harri\Desktop\AirB\airb\bin\Debug\x86\gorilla.pdb'; linking object as if no debug info
+gorilla.lib(block.obj) : warning LNK4099: PDB 'gorilla.pdb' was not found with 'gorilla.lib(block.obj)' or at 'C:\Users\Harri\Desktop\AirB\airb\bin\Debug\x86\gorilla.pdb'; linking object as if no debug info
+gorilla.lib(codebook.obj) : warning LNK4099: PDB 'gorilla.pdb' was not found with 'gorilla.lib(codebook.obj)' or at 'C:\Users\Harri\Desktop\AirB\airb\bin\Debug\x86\gorilla.pdb'; linking object as if no debug info
+gorilla.lib(envelope.obj) : warning LNK4099: PDB 'gorilla.pdb' was not found with 'gorilla.lib(envelope.obj)' or at 'C:\Users\Harri\Desktop\AirB\airb\bin\Debug\x86\gorilla.pdb'; linking object as if no debug info
+gorilla.lib(floor0.obj) : warning LNK4099: PDB 'gorilla.pdb' was not found with 'gorilla.lib(floor0.obj)' or at 'C:\Users\Harri\Desktop\AirB\airb\bin\Debug\x86\gorilla.pdb'; linking object as if no debug info
+gorilla.lib(floor1.obj) : warning LNK4099: PDB 'gorilla.pdb' was not found with 'gorilla.lib(floor1.obj)' or at 'C:\Users\Harri\Desktop\AirB\airb\bin\Debug\x86\gorilla.pdb'; linking object as if no debug info
+gorilla.lib(info.obj) : warning LNK4099: PDB 'gorilla.pdb' was not found with 'gorilla.lib(info.obj)' or at 'C:\Users\Harri\Desktop\AirB\airb\bin\Debug\x86\gorilla.pdb'; linking object as if no debug info
+gorilla.lib(lpc.obj) : warning LNK4099: PDB 'gorilla.pdb' was not found with 'gorilla.lib(lpc.obj)' or at 'C:\Users\Harri\Desktop\AirB\airb\bin\Debug\x86\gorilla.pdb'; linking object as if no debug info
+gorilla.lib(lsp.obj) : warning LNK4099: PDB 'gorilla.pdb' was not found with 'gorilla.lib(lsp.obj)' or at 'C:\Users\Harri\Desktop\AirB\airb\bin\Debug\x86\gorilla.pdb'; linking object as if no debug info
+gorilla.lib(mapping0.obj) : warning LNK4099: PDB 'gorilla.pdb' was not found with 'gorilla.lib(mapping0.obj)' or at 'C:\Users\Harri\Desktop\AirB\airb\bin\Debug\x86\gorilla.pdb'; linking object as if no debug info
+gorilla.lib(mdct.obj) : warning LNK4099: PDB 'gorilla.pdb' was not found with 'gorilla.lib(mdct.obj)' or at 'C:\Users\Harri\Desktop\AirB\airb\bin\Debug\x86\gorilla.pdb'; linking object as if no debug info
+gorilla.lib(psy.obj) : warning LNK4099: PDB 'gorilla.pdb' was not found with 'gorilla.lib(psy.obj)' or at 'C:\Users\Harri\Desktop\AirB\airb\bin\Debug\x86\gorilla.pdb'; linking object as if no debug info
+gorilla.lib(registry.obj) : warning LNK4099: PDB 'gorilla.pdb' was not found with 'gorilla.lib(registry.obj)' or at 'C:\Users\Harri\Desktop\AirB\airb\bin\Debug\x86\gorilla.pdb'; linking object as if no debug info
+gorilla.lib(res0.obj) : warning LNK4099: PDB 'gorilla.pdb' was not found with 'gorilla.lib(res0.obj)' or at 'C:\Users\Harri\Desktop\AirB\airb\bin\Debug\x86\gorilla.pdb'; linking object as if no debug info
+gorilla.lib(sharedbook.obj) : warning LNK4099: PDB 'gorilla.pdb' was not found with 'gorilla.lib(sharedbook.obj)' or at 'C:\Users\Harri\Desktop\AirB\airb\bin\Debug\x86\gorilla.pdb'; linking object as if no debug info
+gorilla.lib(smallft.obj) : warning LNK4099: PDB 'gorilla.pdb' was not found with 'gorilla.lib(smallft.obj)' or at 'C:\Users\Harri\Desktop\AirB\airb\bin\Debug\x86\gorilla.pdb'; linking object as if no debug info
+gorilla.lib(synthesis.obj) : warning LNK4099: PDB 'gorilla.pdb' was not found with 'gorilla.lib(synthesis.obj)' or at 'C:\Users\Harri\Desktop\AirB\airb\bin\Debug\x86\gorilla.pdb'; linking object as if no debug info
+gorilla.lib(vorbisfile.obj) : warning LNK4099: PDB 'gorilla.pdb' was not found with 'gorilla.lib(vorbisfile.obj)' or at 'C:\Users\Harri\Desktop\AirB\airb\bin\Debug\x86\gorilla.pdb'; linking object as if no debug info
+gorilla.lib(window.obj) : warning LNK4099: PDB 'gorilla.pdb' was not found with 'gorilla.lib(window.obj)' or at 'C:\Users\Harri\Desktop\AirB\airb\bin\Debug\x86\gorilla.pdb'; linking object as if no debug info
+  airb.vcxproj -> C:\Users\Harri\Desktop\AirB\airb\\bin\Debug\x86\airb.exe

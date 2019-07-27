@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C47CDF31-AEF7-4650-8B7A-8BA141C09288}</ProjectGuid>
+    <RootNamespace>airb</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(ProjectDir)\bin\$(Configuration)\$(PlatformTarget)\</OutDir>
+    <IntDir>$(ProjectDir)\bin\$(Configuration)\$(PlatformTarget)\Intermediate\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(ProjectDir)\bin\$(Configuration)\$(PlatformTarget)\</OutDir>
+    <IntDir>$(ProjectDir)\bin\$(Configuration)\$(PlatformTarget)\Intermediate\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(ProjectDir)\bin\$(Configuration)\$(PlatformTarget)\</OutDir>
+    <IntDir>$(ProjectDir)\bin\$(Configuration)\$(PlatformTarget)\Intermediate\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(ProjectDir)\bin\$(Configuration)\$(PlatformTarget)\</OutDir>
+    <IntDir>$(ProjectDir)\bin\$(Configuration)\$(PlatformTarget)\Intermediate\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(ProjectDir)\libs\glfw3\include;$(ProjectDir)\libs\freetype2\include;$(ProjectDir)\libs\glew2\include;$(ProjectDir)\libs\gorilla-audio\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(ProjectDir)\libs\glew2\lib;$(ProjectDir)\libs\glfw3\lib;$(ProjectDir)\libs\freetype2\lib;$(ProjectDir)\libs\gorilla-audio\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opengl32.lib;glew32.lib;glfw3.lib;freetype.lib;gorilla.lib;legacy_stdio_definitions.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(ProjectDir)\libs\glfw3\include;$(ProjectDir)\libs\freetype2\include;$(ProjectDir)\libs\glew2\include;$(ProjectDir)\libs\gorilla-audio\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(ProjectDir)\libs\glew2\lib;$(ProjectDir)\libs\glfw3\lib;$(ProjectDir)\libs\freetype2\lib;$(ProjectDir)\libs\gorilla-audio\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opengl32.lib;glew32.lib;glfw3.lib;freetype.lib;gorilla.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(ProjectDir)\libs\glfw3\include;$(ProjectDir)\libs\freetype2\include;$(ProjectDir)\libs\glew2\include;$(ProjectDir)\libs\gorilla-audio\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(ProjectDir)\libs\glew2\lib;$(ProjectDir)\libs\glfw3\lib;$(ProjectDir)\libs\freetype2\lib;$(ProjectDir)\libs\gorilla-audio\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opengl32.lib;glew32.lib;glfw3.lib;freetype.lib;gorilla.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(ProjectDir)\libs\glfw3\include;$(ProjectDir)\libs\freetype2\include;$(ProjectDir)\libs\glew2\include;$(ProjectDir)\libs\gorilla-audio\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(ProjectDir)\libs\glew2\lib;$(ProjectDir)\libs\glfw3\lib;$(ProjectDir)\libs\freetype2\lib;$(ProjectDir)\libs\gorilla-audio\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opengl32.lib;glew32.lib;glfw3.lib;freetype.lib;gorilla.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="src\ai\ai.cpp" />
+    <ClCompile Include="src\ai\attack_state.cpp" />
+    <ClCompile Include="src\ai\caught_state.cpp" />
+    <ClCompile Include="src\ai\idle_state.cpp" />
+    <ClCompile Include="src\ai\path_finding.cpp" />
+    <ClCompile Include="src\ai\patrol_state.cpp" />
+    <ClCompile Include="src\ai\search_node.cpp" />
+    <ClCompile Include="src\audio\manager.cpp" />
+    <ClCompile Include="src\audio\music.cpp" />
+    <ClCompile Include="src\audio\sound.cpp" />
+    <ClCompile Include="src\entities\ai_plane.cpp" />
+    <ClCompile Include="src\entities\basic_projectile.cpp" />
+    <ClCompile Include="src\entities\controllable_plane.cpp" />
+    <ClCompile Include="src\entities\level_terrain.cpp" />
+    <ClCompile Include="src\entities\plane.cpp" />
+    <ClCompile Include="src\entities\projectile.cpp" />
+    <ClCompile Include="src\entities\trajectory_projectile.cpp" />
+    <ClCompile Include="src\entities\uncontrollable_plane.cpp" />
+    <ClCompile Include="src\entities\weapon.cpp" />
+    <ClCompile Include="src\ext\freetype.cpp" />
+    <ClCompile Include="src\ext\glew.cpp" />
+    <ClCompile Include="src\ext\glfw.cpp" />
+    <ClCompile Include="src\ext\gorilla_audio.cpp" />
+    <ClCompile Include="src\graphics\animated_sprite.cpp" />
+    <ClCompile Include="src\graphics\batch_renderer.cpp" />
+    <ClCompile Include="src\graphics\explosion.cpp" />
+    <ClCompile Include="src\graphics\image.cpp" />
+    <ClCompile Include="src\graphics\render_tools.cpp" />
+    <ClCompile Include="src\graphics\shader.cpp" />
+    <ClCompile Include="src\graphics\sprite.cpp" />
+    <ClCompile Include="src\graphics\texture.cpp" />
+    <ClCompile Include="src\graphics\window.cpp" />
+    <ClCompile Include="src\input\keyboard.cpp" />
+    <ClCompile Include="src\input\mouse.cpp" />
+    <ClCompile Include="src\logic\aftermatch_state.cpp" />
+    <ClCompile Include="src\logic\client_gameplay_state.cpp" />
+    <ClCompile Include="src\logic\client_lobby_state.cpp" />
+    <ClCompile Include="src\logic\game.cpp" />
+    <ClCompile Include="src\logic\gameplay_state.cpp" />
+    <ClCompile Include="src\logic\lobby_state.cpp" />
+    <ClCompile Include="src\logic\server_gameplay_state.cpp" />
+    <ClCompile Include="src\logic\server_lobby_state.cpp" />
+    <ClCompile Include="src\logic\state.cpp" />
+    <ClCompile Include="src\logic\title_state.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\math\general.cpp" />
+    <ClCompile Include="src\network\connection.cpp" />
+    <ClCompile Include="src\network\player.cpp" />
+    <ClCompile Include="src\network\socket\client_socket_win.cpp" />
+    <ClCompile Include="src\network\socket\server_socket_win.cpp" />
+    <ClCompile Include="src\network\utilities\udp_packet.cpp" />
+    <ClCompile Include="src\physics\box_collider.cpp" />
+    <ClCompile Include="src\physics\collision.cpp" />
+    <ClCompile Include="src\physics\rigid_body.cpp" />
+    <ClCompile Include="src\physics\rigid_body_with_collider.cpp" />
+    <ClCompile Include="src\physics\terrain_collision.cpp" />
+    <ClCompile Include="src\ui\button.cpp" />
+    <ClCompile Include="src\ui\font.cpp" />
+    <ClCompile Include="src\ui\font_renderer.cpp" />
+    <ClCompile Include="src\ui\input_field.cpp" />
+    <ClCompile Include="src\ui\kill_notification.cpp" />
+    <ClCompile Include="src\ui\scoreboard.cpp" />
+    <ClCompile Include="src\utilities\file_io.cpp" />
+    <ClCompile Include="src\utilities\font_holder.cpp" />
+    <ClCompile Include="src\utilities\pool_object.cpp" />
+    <ClCompile Include="src\utilities\spawn_point.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\ai\ai.hpp" />
+    <ClInclude Include="src\ai\ai_states.hpp" />
+    <ClInclude Include="src\ai\attack_state.hpp" />
+    <ClInclude Include="src\ai\caught_state.hpp" />
+    <ClInclude Include="src\ai\idle_state.hpp" />
+    <ClInclude Include="src\ai\path_finding.hpp" />
+    <ClInclude Include="src\ai\patrol_state.hpp" />
+    <ClInclude Include="src\ai\priority_queue.hpp" />
+    <ClInclude Include="src\ai\search_node.hpp" />
+    <ClInclude Include="src\audio\manager.hpp" />
+    <ClInclude Include="src\audio\music.hpp" />
+    <ClInclude Include="src\audio\sound.hpp" />
+    <ClInclude Include="src\entities\ai_plane.hpp" />
+    <ClInclude Include="src\entities\basic_projectile.hpp" />
+    <ClInclude Include="src\entities\consumable_resource.hpp" />
+    <ClInclude Include="src\entities\controllable_plane.hpp" />
+    <ClInclude Include="src\entities\level_terrain.hpp" />
+    <ClInclude Include="src\entities\plane.hpp" />
+    <ClInclude Include="src\entities\projectile.hpp" />
+    <ClInclude Include="src\entities\trajectory_projectile.hpp" />
+    <ClInclude Include="src\entities\uncontrollable_plane.hpp" />
+    <ClInclude Include="src\entities\weapon.hpp" />
+    <ClInclude Include="src\ext\freetype.hpp" />
+    <ClInclude Include="src\ext\glew.hpp" />
+    <ClInclude Include="src\ext\glfw.hpp" />
+    <ClInclude Include="src\ext\gorilla_audio.hpp" />
+    <ClInclude Include="src\graphics\animated_sprite.hpp" />
+    <ClInclude Include="src\graphics\batch_renderer.hpp" />
+    <ClInclude Include="src\graphics\explosion.hpp" />
+    <ClInclude Include="src\graphics\image.hpp" />
+    <ClInclude Include="src\graphics\render_tools.hpp" />
+    <ClInclude Include="src\graphics\shader.hpp" />
+    <ClInclude Include="src\graphics\sprite.hpp" />
+    <ClInclude Include="src\graphics\texture.hpp" />
+    <ClInclude Include="src\graphics\window.hpp" />
+    <ClInclude Include="src\input\keyboard.hpp" />
+    <ClInclude Include="src\input\mouse.hpp" />
+    <ClInclude Include="src\logic\aftermatch_state.hpp" />
+    <ClInclude Include="src\logic\client_gameplay_state.hpp" />
+    <ClInclude Include="src\logic\client_lobby_state.hpp" />
+    <ClInclude Include="src\logic\game.hpp" />
+    <ClInclude Include="src\logic\gameplay_state.hpp" />
+    <ClInclude Include="src\logic\level_data.hpp" />
+    <ClInclude Include="src\logic\lobby_state.hpp" />
+    <ClInclude Include="src\logic\server_gameplay_state.hpp" />
+    <ClInclude Include="src\logic\server_lobby_state.hpp" />
+    <ClInclude Include="src\logic\state.hpp" />
+    <ClInclude Include="src\logic\title_state.hpp" />
+    <ClInclude Include="src\math\general.hpp" />
+    <ClInclude Include="src\math\matrix.hpp" />
+    <ClInclude Include="src\network\connection.hpp" />
+    <ClInclude Include="src\network\player.hpp" />
+    <ClInclude Include="src\network\socket\client_socket_win.hpp" />
+    <ClInclude Include="src\network\socket\server_socket_win.hpp" />
+    <ClInclude Include="src\network\utilities\config.hpp" />
+    <ClInclude Include="src\network\utilities\functions.hpp" />
+    <ClInclude Include="src\network\utilities\udp_packet.hpp" />
+    <ClInclude Include="src\physics\box_collider.hpp" />
+    <ClInclude Include="src\physics\collision.hpp" />
+    <ClInclude Include="src\physics\rigid_body.hpp" />
+    <ClInclude Include="src\physics\rigid_body_with_collider.hpp" />
+    <ClInclude Include="src\physics\terrain_collision.hpp" />
+    <ClInclude Include="src\ui\button.hpp" />
+    <ClInclude Include="src\ui\font.hpp" />
+    <ClInclude Include="src\ui\font_renderer.hpp" />
+    <ClInclude Include="src\ui\input_field.hpp" />
+    <ClInclude Include="src\ui\kill_notification.hpp" />
+    <ClInclude Include="src\ui\scoreboard.hpp" />
+    <ClInclude Include="src\utilities\async_queue.hpp" />
+    <ClInclude Include="src\utilities\debug.hpp" />
+    <ClInclude Include="src\utilities\file_io.hpp" />
+    <ClInclude Include="src\utilities\font_holder.hpp" />
+    <ClInclude Include="src\utilities\pool_object.hpp" />
+    <ClInclude Include="src\utilities\resource_holder.hpp" />
+    <ClInclude Include="src\utilities\spawn_point.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\audio\manager.inl" />
+    <None Include="src\audio\sound.inl" />
+    <None Include="src\entities\basic_projectile.inl" />
+    <None Include="src\entities\consumable_resource.tpp" />
+    <None Include="src\entities\level_terrain.inl" />
+    <None Include="src\entities\plane.inl" />
+    <None Include="src\entities\projectile.inl" />
+    <None Include="src\entities\trajectory_projectile.inl" />
+    <None Include="src\entities\weapon.inl" />
+    <None Include="src\ext\freetype.inl" />
+    <None Include="src\graphics\batch_renderer.inl" />
+    <None Include="src\graphics\image.inl" />
+    <None Include="src\graphics\render_tools.inl" />
+    <None Include="src\graphics\shader.inl" />
+    <None Include="src\graphics\sprite.inl" />
+    <None Include="src\graphics\texture.inl" />
+    <None Include="src\graphics\window.inl" />
+    <None Include="src\input\keyboard.inl" />
+    <None Include="src\input\mouse.inl" />
+    <None Include="src\logic\game.inl" />
+    <None Include="src\math\general.inl" />
+    <None Include="src\physics\box_collider.inl" />
+    <None Include="src\physics\collision.inl" />
+    <None Include="src\physics\rigid_body.inl" />
+    <None Include="src\physics\rigid_body_with_collider.inl" />
+    <None Include="src\physics\terrain_collision.inl" />
+    <None Include="src\ui\button.inl" />
+    <None Include="src\ui\font.inl" />
+    <None Include="src\ui\font_renderer.inl" />
+    <None Include="src\utilities\debug.inl" />
+    <None Include="src\utilities\pool_object.inl" />
+    <None Include="src\utilities\resource_holder.tpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

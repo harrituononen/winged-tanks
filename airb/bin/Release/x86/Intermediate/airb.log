@@ -1,0 +1,80 @@
+﻿  ai.cpp
+c:\ohjelmointi\projects\vs\airb\airb\src\ai\search_node.hpp(16): warning C4100: 'world_size': unreferenced formal parameter
+  attack_state.cpp
+c:\ohjelmointi\projects\vs\airb\airb\src\ai\search_node.hpp(16): warning C4100: 'world_size': unreferenced formal parameter
+  caught_state.cpp
+c:\ohjelmointi\projects\vs\airb\airb\src\ai\search_node.hpp(16): warning C4100: 'world_size': unreferenced formal parameter
+  idle_state.cpp
+c:\ohjelmointi\projects\vs\airb\airb\src\ai\search_node.hpp(16): warning C4100: 'world_size': unreferenced formal parameter
+src\ai\idle_state.cpp(5): warning C4100: 'ai': unreferenced formal parameter
+  path_finding.cpp
+c:\ohjelmointi\projects\vs\airb\airb\src\ai\search_node.hpp(16): warning C4100: 'world_size': unreferenced formal parameter
+  patrol_state.cpp
+c:\ohjelmointi\projects\vs\airb\airb\src\ai\search_node.hpp(16): warning C4100: 'world_size': unreferenced formal parameter
+  search_node.cpp
+c:\ohjelmointi\projects\vs\airb\airb\src\ai\search_node.hpp(16): warning C4100: 'world_size': unreferenced formal parameter
+  manager.cpp
+  music.cpp
+  sound.cpp
+  ai_plane.cpp
+c:\ohjelmointi\projects\vs\airb\airb\src\ai\search_node.hpp(16): warning C4100: 'world_size': unreferenced formal parameter
+src\entities\ai_plane.cpp(35): warning C4100: 'dt': unreferenced formal parameter
+src\entities\ai_plane.cpp(33): warning C4100: 'kb': unreferenced formal parameter
+src\entities\ai_plane.cpp(33): warning C4100: 'cursor_pos': unreferenced formal parameter
+  basic_projectile.cpp
+c:\ohjelmointi\projects\vs\airb\airb\src\ai\search_node.hpp(16): warning C4100: 'world_size': unreferenced formal parameter
+  controllable_plane.cpp
+  level_terrain.cpp
+  plane.cpp
+  projectile.cpp
+c:\ohjelmointi\projects\vs\airb\airb\src\ai\search_node.hpp(16): warning C4100: 'world_size': unreferenced formal parameter
+  trajectory_projectile.cpp
+c:\ohjelmointi\projects\vs\airb\airb\src\ai\search_node.hpp(16): warning C4100: 'world_size': unreferenced formal parameter
+  weapon.cpp
+c:\ohjelmointi\projects\vs\airb\airb\src\ai\search_node.hpp(16): warning C4100: 'world_size': unreferenced formal parameter
+  freetype.cpp
+  glew.cpp
+  Compiling...
+  glfw.cpp
+  gorilla_audio.cpp
+  animated_sprite.cpp
+  batch_renderer.cpp
+  explosion.cpp
+  image.cpp
+  render_tools.cpp
+  shader.cpp
+  sprite.cpp
+  texture.cpp
+  window.cpp
+  keyboard.cpp
+  mouse.cpp
+  aftermatch_state.cpp
+  game.cpp
+c:\ohjelmointi\projects\vs\airb\airb\src\ai\search_node.hpp(16): warning C4100: 'world_size': unreferenced formal parameter
+  gameplay_state.cpp
+c:\ohjelmointi\projects\vs\airb\airb\src\ai\search_node.hpp(16): warning C4100: 'world_size': unreferenced formal parameter
+  lobby_state.cpp
+  state.cpp
+  title_state.cpp
+  main.cpp
+  Compiling...
+  general.cpp
+  box_collider.cpp
+src\physics\box_collider.cpp(35): warning C4244: '=': conversion from 'GLfloat' to 'int', possible loss of data
+src\physics\box_collider.cpp(41): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  collision.cpp
+  rigid_body.cpp
+src\physics\rigid_body.cpp(75): warning C4100: 'terr': unreferenced formal parameter
+  rigid_body_with_collider.cpp
+src\physics\rigid_body_with_collider.cpp(40): warning C4189: 'j': local variable is initialized but not referenced
+  terrain_collision.cpp
+  button.cpp
+  font.cpp
+  font_renderer.cpp
+  scoreboard.cpp
+  file_io.cpp
+  font_holder.cpp
+  pool_object.cpp
+gorilla.lib(analysis.obj) : error LNK2001: unresolved external symbol __imp__fprintf
+gorilla.lib(analysis.obj) : error LNK2001: unresolved external symbol __imp__sprintf
+C:\Ohjelmointi\projects\VS\AirB\airb\\bin\Release\x86\airb.exe : fatal error LNK1120: 2 unresolved externals
